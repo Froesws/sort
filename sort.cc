@@ -82,7 +82,7 @@ public:
 			{
 				if (var[0] > var[i])
 				{
-					swap(&var[0], &var[i]);
+					Swap(&var[0], &var[i]);
 				}
 			}
 			Selection(&var[1], size - 1);
